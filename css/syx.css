@@ -1,0 +1,130 @@
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+a:hover {
+	color: #31c27c
+}
+
+button{
+	background-color: #31c27c;
+	color:#fff;
+	border-color: #1e1e1f;
+	border-width: 0;
+	font-size: 20px;
+	padding: 0 8px 6px 8px;
+}
+
+body {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: poppin, Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif, 9;
+  background: #1e1e1f;
+  overflow-y: scroll;
+}
+span{ 
+	display: none;
+ } 
+
+.mod_singer_tag {
+	background-color: #1e1e1f;
+	padding: 34px 0 0 40px;
+	margin: 30px 0 20px 50px;
+}
+
+.singer_tag__list {
+	padding-bottom: 3px;
+	height: auto;
+	zoom: 1;
+	clear: both;
+	overflow: hidden
+}
+
+.singer_tag__item1,.singer_tag__item2,.singer_tag__item3 {
+	float: left;
+	line-height: 26px;
+	padding: 0 8px;
+	font-size: 20px;
+	margin: 0 12px 14px 0
+}
+
+
+
+.singer_tag__item--all {
+	margin-right: 30px;
+	padding-bottom: 6px;
+}
+
+.singer_tag__item--select,
+.singer_tag__item--select:hover {
+	background-color: #31c27c;
+	color: #fff;
+	padding-bottom: 6px;
+}
+
+.singer_list__list {
+	margin-bottom: 4px
+}
+
+.mod_singer_list {
+	overflow: hidden;
+	text-align: center
+}
+
+.singer_list__list {
+	margin-right: -20px;
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: -24px
+}
+
+.singer_list__item {
+	float: left;
+	width: 20%;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.singer_list__item_box {
+	position: relative;
+	margin-right: 80px;
+	background-color: #1e1e1f;
+	min-height: 195px;
+	padding: 25px 0;
+	overflow: hidden;
+
+}
+
+.singer_list__cover,
+.singer_list__pic {
+	width: 210px;
+	height: 210px;
+	border-radius: 126px
+}
+
+.singer_list__cover {
+	margin-left: auto;
+	margin-right: auto
+}
+
+.singer_list__title {
+	font-size: 16px;
+	font-weight: 400;
+	zoom: 1;
+	width: 100%;
+	margin: 20px 30px 4px
+}
+
+.singer_list__title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+
+
